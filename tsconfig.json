@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "lib":["esnext"],
+        "strict":true,
+        "outDir":"dist",
+        "esModuleInterop": true
+    
+    },
+    "include":[
+        "./api/*.ts",
+        "src/**/*.ts",
+        "test/**/*.ts",
+        "/**/*.ts",
+        "index.ts "
+    ],
+    "exclude":["node_modules"],
+}
